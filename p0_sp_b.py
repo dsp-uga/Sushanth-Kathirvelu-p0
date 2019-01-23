@@ -21,7 +21,7 @@ def case_insensitive(x):
 	"""creating a function for interchanging key and value"""
 	return  x.lower()
 		
-def hasMoreThanTwoOccurence(x):
+def has_more_than_two_occurence(x):
 	"""creating a function for finding words with more than 2 occurences"""	
 	if(x[1]>2):
 		return(x)
@@ -51,8 +51,7 @@ stopWords=stopWordsFile.flatMap(lambda x:x[1].split('\n'))
 stopWordsBroadcast=sc.broadcast(stopWords.collect())
 
 """wordCount with case-insensitive words and filetering words with more than 2 occurences in the text file and without stop words"""
-wordCount= fileWithoutStopWord.map(lambda x:case_insensitive(x[1])).flatMap(lambda x:x.split()).filter(lambda x:not_in_stop_words(stopWordsBroadcast,x)).map(lambda x:create_a_key_value_pair(x)).reduceByKey(add)
-#wordCount= fileWithoutStopWord.flatMap(lambda x:x[1].split(' ')).filter(lambda x:removeBlank(x)).map(lambda x:x.lower()).filter(lambda x:notInStopWords(stopWordsBroadcast,x)).map(lambda x:(x,1)).reduceByKey(add).filter(lambda x:hasMoreThanTwoOccurence(x))
+wordCount= fileWithoutStopWord.map(lambda x:case_insensitive(x[1])).flatMap(lambda x:x.split()).filter(lambda x:not_in_stop_words(stopWordsBroadcast,x)).map(lambda x:create_a_key_value_pair(x)).reduceByKey(add).filter(lambda x:has_more_than_two_occurence(x))
 """taking only the top 40 most frequently occuring words"""
 topFourtyWords=wordCount.map(lambda x:(x[1],x[0])).sortByKey(False).map(lambda x:(x[1],x[0])).take(40)
 
