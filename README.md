@@ -18,19 +18,19 @@ spark-submit <location of the python file> <location of all the data files> <loc
 
   ### Subproject A – p0_sp_a.py
   enter command on your terminal or CMD   
-  'spark-submit /<location of the p0_sp_a.py file/> /<location of all the data files/> <\location to store the output file\> sp1'
+  'spark-submit <\location of the p0_sp_a.py file\> <\location of all the data files\> <\location to store the output file\> sp1'
 
   ### Subproject B – p0_sp_b.py
   enter command on your terminal or CMD   
-  'spark-submit <location of the p0_sp_b.py file> <location of all the data files> <location to store the output file> sp2'
+  'spark-submit <\location of the p0_sp_b.py file\> <\location of all the data files\> <\location to store the output file\> sp2'
 
   ### Subproject C – p0_sp_c.py
   enter command on your terminal or CMD   
-  'spark-submit <location of the p0_sp_c.py file> <location of all the data files> <location to store the output file> sp3'
+  'spark-submit <\location of the p0_sp_c.py file\> <\location of all the data files\> <\location to store the output file\> sp3'
 
   ### Subproject D – p0_sp_d.py
   enter command on your terminal or CMD   
-  'spark-submit <location of the p0_sp_d.py file> <location of all the data files> <location to store the output file> sp4'
+  'spark-submit <\location of the p0_sp_d.py file\> <\location of all the data files\> <\location to store the output file\> sp4'
   
 ## Details
 
