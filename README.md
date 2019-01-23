@@ -1,6 +1,7 @@
 # Sushanth-Kathirvelu-p0
 
 CSCI 8360 Data science Practicum- Project 0
+
 This is the project 0 of the DSP’2019. Details regarding the projects are found at https://github.com/dsp-uga/sp19/tree/master/projects/p0 .
 
 ## Prerequisites 
