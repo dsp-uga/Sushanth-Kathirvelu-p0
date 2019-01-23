@@ -12,13 +12,13 @@ This is the project 0 of the DSP’2019. Details regarding the projects are foun
 
 [java 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) 
 
-## Executing the Projects
+## Running the Codes
 To execute a sub project open command prompt in the machine and enter the commands below 
 spark-submit <location of the python file> <location of all the data files> <location to store the output file> <Name of the Output file>
 
   ### Subproject A – p0_sp_a.py
   enter command on your terminal or CMD   
-  'spark-submit <location of the p0_sp_a.py file> <location of all the data files> <location to store the output file> sp1'
+  'spark-submit /<location of the p0_sp_a.py file/> /<location of all the data files/> <\location to store the output file\> sp1'
 
   ### Subproject B – p0_sp_b.py
   enter command on your terminal or CMD   
@@ -49,6 +49,8 @@ spark-submit <location of the python file> <location of all the data files> <loc
 
 ## Authors
 [Sushanth Kathirvelu](https://github.com/Sushanth-Kathirvelu)
+
+## Contributors
 
 See the contributors file for details.
 
