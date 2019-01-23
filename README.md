@@ -5,8 +5,11 @@ This is the project 0 of the DSP’2019. Details regarding the projects are foun
 
 ## Prerequisites 
 [Apache Spark](https://spark.apache.org/)
+
 [python](https://www.python.org/downloads/) 
+
 [scala](https://www.scala-lang.org/download/) 
+
 [java 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) 
 
 ## Executing the Projects
@@ -46,6 +49,7 @@ spark-submit <location of the python file> <location of all the data files> <loc
 
 ## Authors
 [Sushanth Kathirvelu](https://github.com/Sushanth-Kathirvelu)
+
 See the contributors file for details.
 
 ## License
