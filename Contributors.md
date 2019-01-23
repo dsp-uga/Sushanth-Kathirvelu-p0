@@ -3,6 +3,9 @@
 ## Contributors
 
 [Sushanth Kathirvelu](https://github.com/Sushanth-Kathirvelu)
+
   --All code
+  
   --Setup instructions
+  
   --Documentation
